@@ -1,0 +1,12 @@
+{
+  "name": "tgs-blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A blueprint for TGS application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {}
+}
