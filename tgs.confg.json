@@ -1,0 +1,17 @@
+{
+  "name": "test-blueprint",
+  "crons": [
+    {
+      "path": "api/test",
+      "schedule": "0 * * * * *",
+      "description": "test cron job, run every minute"
+    }
+  ],
+  "functions": {
+    "api/test.js": {
+      "runtime": "nodejs",
+      "memory": 3008,
+      "maxDuration": 60
+    }
+  }
+}
